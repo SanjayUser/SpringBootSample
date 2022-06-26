@@ -1,0 +1,7 @@
+<!ELEMENT classpath (classpathentry+)>
+<!ELEMENT classpathentry EMPTY>
+<!ATTLIST classpathentry kind (con|output|src|var) #REQUIRED>
+<!ATTLIST classpathentry path CDATA #REQUIRED>
+<!ATTLIST classpathentry including CDATA #IMPLIED>
+<!ATTLIST classpathentry excluding CDATA #IMPLIED>
+<!ATTLIST classpathentry sourcepath CDATA #IMPLIED>
