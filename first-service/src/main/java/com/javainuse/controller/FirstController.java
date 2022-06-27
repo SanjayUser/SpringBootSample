@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstController {
 
 	@GetMapping("/message")
-	public ResponseEntity<String> test(@RequestHeader("first-request") String header) {
+	public String test(@RequestHeader("first-request") String header) {
 		System.out.println(header);
 		return "Hello JavaInUse Called in First Service";
 	}
